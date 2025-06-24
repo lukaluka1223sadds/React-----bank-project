@@ -1,0 +1,10 @@
+.menu{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    column-gap: 40px;
+    background-color: #02131d;
+    padding: 16px 0 0 10px;
+    color: rgb(255, 255, 255);
+}

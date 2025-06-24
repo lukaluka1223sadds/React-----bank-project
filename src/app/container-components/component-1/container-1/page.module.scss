@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tagesschrift&display=swap');
+.Image{
+    width: 100%;
+    height: 630px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.h1{
+    font-size: 88px;
+    margin: 150px 0 0  190px;
+    -webkit-text-stroke: 2.5px black;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.h1_1{
+    font-size: 35px;
+    -webkit-text-stroke: 1.5px black;
+    margin-left: 280px;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.DownloadImg{
+    &1{
+        height: 80px;
+        width: 230px;
+        margin: 10px 10px 0 10px;
+    }
+    &2{
+        height: 70px;
+        width: 230px;
+        margin: 16px 16px 0 16px;
+    }
+}
+
+.DownloadImgAfter{
+    &1{
+        height: 90px;
+        width: 240px;
+        margin: 5px 0px 0 3px;
+    }
+    &2{
+        height: 80px;
+        width: 240px;
+        margin: 11px 0px 0 3px;
+    }
+}
+
+.DownloadImgContainer{
+    overflow:hidden;
+    margin-top:70px;
+    display:flex;
+    width:568px;
+    height: 120px;
+    column-gap:100px;
+    transform:translate(434px , 0px);
+}

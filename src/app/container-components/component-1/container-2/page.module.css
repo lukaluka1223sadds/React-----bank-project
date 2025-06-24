@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tagesschrift&display=swap");
+.component1 {
+  height: 700px;
+  width: 1250px;
+  position: relative;
+  top: 30px;
+  left: 95px;
+  background-color: rgb(189, 206, 202);
+  border-radius: 15px;
+  border: 50px solid white;
+}
+
+.header {
+  position: relative;
+  font-size: 70px;
+  color: black;
+  top: 38px;
+  left: 52px;
+}
+
+.h2_1 {
+  color: black;
+  position: relative;
+  top: 60px;
+  left: 55px;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ContainerRegistration {
+  height: 385px;
+  width: 900px;
+  background-color: white;
+  position: relative;
+  left: 125px;
+  top: 120px;
+}
+
+.ImageRegister {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: -50px;
+  left: 390px;
+}/*# sourceMappingURL=page.module.css.map */
