@@ -3,7 +3,8 @@ import styles from "./page.module.css";
 import { Col, Row } from "antd";
 import { useFormStatus } from "react-dom";
 import UseServer from "./useServer"
-import { FormEvent, useState } from "react";
+import { useDispatch } from "react-redux";
+import { container_2_boolean } from "../../../../Store_slices/slice_1/slice_1"
 
 const ButtonSubmit = ()=>{
 const {pending} = useFormStatus()
@@ -12,18 +13,17 @@ return(
   disabled={pending}
   className={styles.ButtonSubmit}
   >
-  {pending? "invio in corso ... " : "invia messaggio"}
+  {pending? "invio in corso ... " : "invia"}
   </button>
 )
-
 }
 
 export default function () {
-  const [message , setMessage] = useState<string>("")
+  const dispatch = useDispatch()
       async function callServer(props:FormData){
         const server = await UseServer(props)
-        const a=server
-        setMessage(a.message as unknown as string)
+        const result = await server.message
+        dispatch(container_2_boolean(result as boolean))
       }
   return (
     <>

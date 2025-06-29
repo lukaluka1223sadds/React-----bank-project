@@ -4,10 +4,10 @@ import styles from "./menu.module.css"
 export default function Menu() {
     return (
         <div className={styles.menu}>
-            <Link href="/container-components">
+            <Link href="/">
                 Component-1
             </Link>
-            <Link href="/">
+            <Link href="/container-components">
                 component-2
             </Link>
         </div>

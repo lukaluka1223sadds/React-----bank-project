@@ -1,9 +1,15 @@
+"use client"
+
 import styles from "./page.module.css"
 import Image from "next/image"
 import ImgRegistration from "../../../../../public/imgregistration.jpeg"
 import RegistrationForm from "./FormRegistration/page"
+import { useSelector } from "react-redux"
+import { RootState } from "../../../store"
+import EnterMyCard from "./EnterMyCard/page"
 
 export default function Container_2(){
+    const selectStoreSlice = useSelector((state:RootState)=>state.container_2)
     return(
         <>
             <div className={styles.component1}>
@@ -14,6 +20,7 @@ export default function Container_2(){
                 <Image className={styles.ImageRegister} src={ImgRegistration} alt="" height={300} width={300}></Image>
                </div>
             </div>
+            {selectStoreSlice && <EnterMyCard></EnterMyCard>}
         </>
     )
 }

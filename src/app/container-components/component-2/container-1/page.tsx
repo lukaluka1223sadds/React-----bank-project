@@ -24,7 +24,7 @@ export default function Container_1() {
   }
   return (
     <div className={styles.Div_1}>
-      <Reusable_1 transform="translate(20px , 70px)">
+      <Reusable_1 transform="translate(0px , 40px)">
         <Row style={{ height: "100%" }}>
           <Col style={{ height: "500px", width: "550px" }}>
             <Image src={img1} height={500} width={550} alt=""></Image>
