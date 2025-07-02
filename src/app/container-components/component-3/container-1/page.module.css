@@ -1,0 +1,180 @@
+.Cards {
+  height: 660px;
+  width: 1560px;
+  background-color: antiquewhite;
+  margin-top: 170px;
+  display: flex;
+  flex-wrap: nowrap;
+  transform: skewX(-10deg);
+  position: relative;
+  left: -10px;
+}
+
+.Card_1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 2, 78, 0.351);
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  border: 0;
+}
+.Card_1 div > article {
+  width: 145px;
+  color: rgb(0, 0, 0);
+}
+
+.Card_2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.345);
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  border: 0;
+}
+.Card_2 div > article {
+  width: 145px;
+  color: rgb(0, 0, 0);
+}
+
+.Card_3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 235, 16, 0.44);
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  border: 0;
+}
+.Card_3 div > article {
+  width: 145px;
+  color: rgb(0, 0, 0);
+}
+
+.Card_4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 255, 139, 0.274);
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  border: 0;
+}
+.Card_4 div > article {
+  width: 145px;
+  color: rgb(0, 0, 0);
+}
+
+.Card_5 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(196, 192, 255, 0.335);
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  border: 0;
+  width: 10400px;
+  font-size: 25px;
+}
+.Card_5 div > article {
+  width: 145px;
+  color: rgb(0, 0, 0);
+}
+
+.Card_after_1 {
+  width: 11000px;
+  height: 720px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  position: relative;
+  top: -60px;
+  border: 0;
+  background-color: rgba(7, 2, 78, 0.351);
+  font-size: 30px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86) !important;
+}
+.Card_after_1 div > article {
+  width: 540px;
+  margin: 60px 0 0 75px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 5px 0 0 20px;
+  transition: width 0.4s cubic-bezier(1, 0.04, 0, 0.86);
+}
+
+.Card_after_2 {
+  width: 11000px;
+  height: 720px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  position: relative;
+  top: -60px;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0.345);
+  font-size: 30px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86) !important;
+}
+.Card_after_2 div > article {
+  width: 540px;
+  margin: 60px 0 0 75px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 5px 0 0 20px;
+  transition: width 0.4s cubic-bezier(1, 0.04, 0, 0.86);
+}
+
+.Card_after_3 {
+  width: 11000px;
+  height: 720px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  position: relative;
+  top: -60px;
+  border: 0;
+  background-color: rgba(255, 235, 16, 0.44);
+  font-size: 30px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86) !important;
+}
+.Card_after_3 div > article {
+  width: 540px;
+  margin: 60px 0 0 75px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 5px 0 0 20px;
+  transition: width 0.4s cubic-bezier(1, 0.04, 0, 0.86);
+}
+
+.Card_after_4 {
+  width: 11000px;
+  height: 720px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  position: relative;
+  top: -60px;
+  border: 0;
+  background-color: rgba(7, 255, 139, 0.274);
+  font-size: 30px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86) !important;
+}
+.Card_after_4 div > article {
+  width: 540px;
+  margin: 60px 0 0 75px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 5px 0 0 20px;
+  transition: width 0.4s cubic-bezier(1, 0.04, 0, 0.86);
+}
+
+.Card_after_5 {
+  width: 11000px;
+  height: 720px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  position: relative;
+  top: -60px;
+  border: 0;
+  background-color: rgba(196, 192, 255, 0.335);
+  font-size: 30px;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86) !important;
+}
+.Card_after_5 div > article {
+  width: 540px;
+  margin: 60px 0 0 75px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 5px 0 0 20px;
+  transition: width 0.4s cubic-bezier(1, 0.04, 0, 0.86);
+}
+
+.DivsInfos {
+  position: absolute;
+  top: 1px;
+  color: rgb(255, 255, 255);
+  width: 145px;
+}/*# sourceMappingURL=page.module.css.map */

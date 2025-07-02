@@ -1,0 +1,72 @@
+.cards {
+  height: 500px;
+  width: 100%;
+}
+
+.Image1 {
+  transform: translate(-665px, 115px);
+  border-radius: 20px;
+}
+
+.Cols0 {
+  height: 500px;
+  width: 250px;
+  background-color: rgba(0, 94, 255, 0.393);
+  transform: skewX(-20deg);
+}
+
+.Cols1 {
+  height: 500px;
+  width: 250px;
+  background-color: rgba(102, 0, 255, 0.266);
+  transform: skewX(-20deg);
+}
+
+.Cols2 {
+  height: 500px;
+  width: 250px;
+  background-color: rgba(255, 0, 0, 0.373);
+  transform: skewX(-20deg);
+}
+
+.CreditCard {
+  font-size: 30px;
+  font-size: 75px;
+  margin-top: 120px;
+  color: black;
+}
+
+.Cols3 {
+  width: 20px;
+}
+
+.h3 {
+  width: 542px;
+  color: black;
+}
+
+.ButtonBefore, .ButtonAfter {
+  height: 75px;
+  width: 290px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 25px;
+  transform: scale(1.05);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-out;
+  background: linear-gradient(90deg, #4f46e5 0%, #06b6d4 100%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.ButtonAfter {
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
+  width: 320px;
+}/*# sourceMappingURL=page.module.css.map */

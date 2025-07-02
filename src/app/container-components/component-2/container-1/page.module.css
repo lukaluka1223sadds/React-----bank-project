@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tagesschrift&display=swap");
 .Div_1 {
-  height: 700px;
+  height: 630px;
   width: 100%;
 }
 
@@ -30,4 +30,5 @@
   font-size: 23px;
   border-radius: 10px;
   background-color: #04685b;
+  transition: width 0.3s cubic-bezier(1, 0.04, 0, 0.86);
 }/*# sourceMappingURL=page.module.css.map */
