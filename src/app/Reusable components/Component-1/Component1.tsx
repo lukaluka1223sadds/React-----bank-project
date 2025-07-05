@@ -5,7 +5,7 @@ interface Translate {
     BGcolor?:string;
 }
 
-export default function Reusable_1(e:Translate){
+export function Reusable_1(e:Translate){
     return(
         <div className={styles.Reusable_1} style={{backgroundColor:e.BGcolor , transform: typeof e.transform === 'string' ? e.transform : undefined}}>
         {e.children}

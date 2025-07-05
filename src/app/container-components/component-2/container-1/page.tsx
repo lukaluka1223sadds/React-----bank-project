@@ -1,6 +1,6 @@
 "use client";
 
-import Reusable_1 from "@/app/Reusable components/Component-1/page";
+import {Reusable_1} from "@/app/Reusable components/Component-1/Component1";
 import styles from "./page.module.css";
 import Image from "next/image";
 import img1 from "../../../../../public/getCard.avif";
@@ -24,7 +24,7 @@ export default function Container_1() {
   }
   return (
     <div className={styles.Div_1}>
-      <Reusable_1 transform="translate(0px , 70px)">
+      <Reusable_1 transform="translate(50px , 70px)">
         <Row style={{ height: "100%" }}>
           <Col style={{ height: "500px", width: "550px" }}>
             <Image src={img1} height={500} width={550} alt=""></Image>

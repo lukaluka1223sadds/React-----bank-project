@@ -7,7 +7,5 @@ export function Button(){
     function BollChange(e:number){
         e==1?setBoll("ButtonBefore"):setBoll("ButtonAfter")
     }
-    return(
-        <button onMouseEnter = {()=>BollChange(2)} onMouseLeave={()=>BollChange(1)} className={styles[boll]}>Get Card</button>
-    )
+    return <button onMouseEnter = {()=>BollChange(2)} onMouseLeave={()=>BollChange(1)} className={styles[boll]}>Get Card</button>
 }

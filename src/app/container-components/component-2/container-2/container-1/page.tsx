@@ -1,13 +1,13 @@
-import Reusable_1 from "@/app/Reusable components/Component-1/page";
+import {Reusable_1} from "@/app/Reusable components/Component-1/Component1";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Img1 from "../../../../../../public/creditCard.jpg";
 import { Col, Row } from "antd";
-import {Button} from "./button/page"
+import {Button} from "./button/Button1"
 
 export default function Container_2() {
   return (
-    <Reusable_1 BGcolor="white">
+    <Reusable_1 BGcolor="white" transform="translate( 50px , 0)">
       <Row style={{ flexWrap: "nowrap" }}>
         <Col className={styles.Cols0}></Col>
         <Col className={styles.Cols1}></Col>

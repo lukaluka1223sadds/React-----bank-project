@@ -5,6 +5,7 @@ import { useFormStatus } from "react-dom";
 import UseServer from "./useServer"
 import { useDispatch } from "react-redux";
 import { container_2_boolean } from "../../../../Store_slices/slice_1/slice_1"
+import { setUser } from "@/app/Store_slices/Slice_2/slice_2";
 
 const ButtonSubmit = ()=>{
 const {pending} = useFormStatus()
@@ -19,11 +20,15 @@ return(
 }
 
 export default function () {
-  const dispatch = useDispatch()
+      const dispatch = useDispatch()
       async function callServer(props:FormData){
         const server = await UseServer(props)
         const result = await server.message
         dispatch(container_2_boolean(result as boolean))
+        dispatch(setUser({
+          userName: server.userName as string,
+          password: server.password as string,
+        }))
       }
   return (
     <>
@@ -40,7 +45,7 @@ export default function () {
           <br />
           <Col>
             {" "}
-            <input type="text" id="input1" className={styles.Input1} required/>
+            <input type="text" id="input1" name="userName" className={styles.Input1} required/>
           </Col>
           <br />
           <br />
@@ -53,7 +58,7 @@ export default function () {
           <br />
           <Col>
             {" "}
-            <input type="text" id="input2" className={styles.Input1} required/>
+            <input type="text" id="input2" name="Password" className={styles.Input1} required/>
           </Col>
           <Col>
             <br />

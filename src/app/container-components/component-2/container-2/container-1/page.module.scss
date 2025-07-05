@@ -18,6 +18,9 @@ $Colors_for_Cols: (
 
 @for $i from 0 to 3 {
     .Cols#{$i}{
+    @if $i == 0 {
+        margin-left: 91px;
+    }
     height: 500px;
     width: 250px;
     background-color: map-get($Colors_for_Cols, $i);

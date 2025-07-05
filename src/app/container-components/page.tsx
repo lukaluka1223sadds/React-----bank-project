@@ -4,6 +4,7 @@ import Container_1 from "./component-2/container-1/page"
 import Container_2 from "./component-2/container-2/container-1/page";
 import Container_4  from "./component-4/container-1/page";
 import Cards from "./component-3/container-1/page";
+import Container5 from "./component-5/container-1/page"
 
 export default async function container_1_component_1(){
     // await new Promise(resolve => setTimeout(resolve, 5000)); 
@@ -15,6 +16,7 @@ export default async function container_1_component_1(){
             <Container_2></Container_2>
             <Cards></Cards>
             <Container_4></Container_4>
+            <Container5></Container5>
         </div>
     )
 }

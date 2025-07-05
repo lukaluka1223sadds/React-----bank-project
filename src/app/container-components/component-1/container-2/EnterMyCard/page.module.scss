@@ -1,14 +1,20 @@
 .EnterMyCard{
     height: 450px;
     width: 1340px;
-    background-color: rgba(141, 149, 141, 0.663);
+    background-color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 30px;
+    color: black;
+    font-size: 21px;
+    top: 60px;
 }
 
 .ImgqrCode{
     position: relative;
-    top:30px;
     left:50px;
     height: 400px;
     width: 400px;
@@ -18,6 +24,5 @@
     height: 400px;
     width: 400px;
     position: relative;
-    top: 35px;
-    left: 465px;
+    top: -20px;
 }
